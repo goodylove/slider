@@ -4,7 +4,7 @@ let left = document.querySelector(".left")
 let position = 0;
 function activateslide() {
   for (let x = 0; x < slider.length; x++) {
-    // slider[x].style.display = "none";
+    slider[x].style.display = "none";
   }
   position++;
   if(position > slider.length){
