@@ -14,7 +14,7 @@ function activateslide() {
 }
 setInterval(()=>{
 activateslide()
-},5000);
+},2000);
 
 right.addEventListener("click", function() {
 position = position + 1
